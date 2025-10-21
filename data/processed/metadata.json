@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-10-21T16:20:18.038847",
+  "data_shape": [
+    100,
+    22
+  ],
+  "columns": [
+    "age",
+    "salary",
+    "experience",
+    "department",
+    "education",
+    "performance",
+    "remote_work",
+    "join_date",
+    "join_date_year",
+    "join_date_month",
+    "join_date_day",
+    "join_date_dayofweek",
+    "join_date_quarter",
+    "join_date_is_weekend",
+    "join_date_is_month_start",
+    "join_date_is_month_end",
+    "experience_to_salary_ratio",
+    "is_senior",
+    "salary_above_avg",
+    "age_group",
+    "salary_binned",
+    "experience_binned"
+  ],
+  "label_encoders": {
+    "department": [
+      "Finance",
+      "HR",
+      "IT",
+      "Marketing",
+      "Sales"
+    ],
+    "performance": [
+      "Average",
+      "Excellent",
+      "Good",
+      "Poor"
+    ],
+    "education": [
+      "Bachelor",
+      "High School",
+      "Master",
+      "PhD"
+    ],
+    "age_group": [
+      "Early-Mid",
+      "Junior",
+      "Late-Mid",
+      "Senior"
+    ]
+  },
+  "config": {},
+  "data_quality_score": {}
+}

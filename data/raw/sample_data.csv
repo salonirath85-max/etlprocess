@@ -1,0 +1,106 @@
+age,salary,experience,department,education,performance,remote_work,join_date
+40.0,38769.0,9.0,IT,High School,Poor,True,2020-10-11 16:20:17.916666
+64.0,161070.0,10.0,Marketing,High School,Excellent,False,2017-03-13 16:20:17.916666
+41.0,,12.0,HR,Bachelor,Average,,2018-01-10 16:20:17.916666
+50.0,47966.0,12.0,Sales,PhD,Excellent,,2019-07-09 16:20:17.916666
+33.0,57581.0,2.0,IT,Bachelor,Good,True,2020-01-27 16:20:17.916666
+33.0,66061.0,4.0,Finance,PhD,Good,True,2022-09-03 16:20:17.916666
+51.0,88293.0,10.0,IT,Bachelor,,False,2019-08-13 16:20:17.916666
+43.0,62619.0,10.0,Finance,PhD,Good,False,2019-07-19 16:20:17.916666
+30.0,63863.0,10.0,Marketing,Bachelor,Good,False,2022-11-07 16:20:17.916666
+40.0,58883.0,23.0,HR,High School,Average,False,2019-03-30 16:20:17.916666
+,31218.0,10.0,IT,,Excellent,False,2025-07-07 16:20:17.916666
+30.0,59602.0,13.0,Sales,,Excellent,,2017-12-04 16:20:17.916666
+37.0,60903.0,,,PhD,Average,False,2025-09-04 16:20:17.916666
+16.0,96949.0,11.0,IT,High School,Poor,False,2015-10-30 16:20:17.916666
+18.0,57115.0,7.0,Sales,Bachelor,Excellent,False,2024-11-19 16:20:17.916666
+59.0,193569.0,11.0,,Bachelor,Good,True,2022-12-07 16:20:17.916666
+25.0,59479.0,,Finance,High School,Excellent,True,2017-12-31 16:20:17.916666
+68.0,127410.0,7.0,IT,Bachelor,Good,True,2022-04-20 16:20:17.916666
+26.0,77142.0,6.0,IT,Master,Poor,True,2020-03-06 16:20:17.916666
+21.0,71279.0,8.0,IT,,Average,False,2024-02-05 16:20:17.916666
+50.0,71865.0,,Marketing,Master,Excellent,False,2020-08-18 16:20:17.916666
+33.0,46359.0,1.0,,Master,Average,,2022-04-24 16:20:17.916666
+36.0,81042.0,11.0,Sales,High School,Excellent,False,2021-02-09 16:20:17.916666
+21.0,38972.0,2.0,Finance,Bachelor,Good,True,2018-03-26 16:20:17.916666
+30.0,68803.0,6.0,Finance,High School,Average,,2024-12-23 16:20:17.916666
+36.0,92857.0,12.0,IT,Bachelor,,True,2024-01-22 16:20:17.916666
+23.0,45142.0,,Marketing,Bachelor,Good,,2025-08-27 16:20:17.916666
+39.0,51506.0,4.0,Marketing,PhD,Average,,2023-10-27 16:20:17.916666
+29.0,61495.0,5.0,Sales,Bachelor,,True,2024-05-14 16:20:17.916666
+62.0,157344.0,11.0,IT,High School,Excellent,False,
+29.0,36740.0,5.0,Finance,Master,Excellent,True,2025-09-24 16:20:17.916666
+54.0,61028.0,9.0,Marketing,Bachelor,Excellent,True,2019-12-27 16:20:17.916666
+35.0,,8.0,IT,PhD,,True,2016-10-21 16:20:17.916666
+24.0,67104.0,5.0,,High School,Excellent,True,2016-05-04 16:20:17.916666
+43.0,46209.0,17.0,Marketing,Bachelor,Average,False,2024-10-22 16:20:17.916666
+53.0,249747.0,11.0,Finance,High School,Average,False,2018-05-18 16:20:17.916666
+37.0,48251.0,,HR,PhD,Excellent,False,2024-05-14 16:20:17.916666
+15.0,55169.0,,Sales,PhD,Excellent,True,2018-04-15 16:20:17.916666
+22.0,72203.0,5.0,Sales,,Poor,,2022-02-24 16:20:17.916666
+,41537.0,,Finance,Bachelor,,True,2023-05-23 16:20:17.916666
+42.0,63412.0,5.0,Marketing,Master,,,
+37.0,79607.0,8.0,IT,PhD,Poor,False,2022-12-30 16:20:17.916666
+,35888.0,10.0,Marketing,Bachelor,Excellent,False,2021-04-19 16:20:17.916666
+32.0,62770.0,11.0,Finance,Bachelor,Excellent,True,2023-04-17 16:20:17.916666
+20.0,63898.0,3.0,Sales,Master,Average,False,2018-02-23 16:20:17.916666
+28.0,71727.0,7.0,Marketing,PhD,Excellent,False,2019-03-17 16:20:17.916666
+30.0,41446.0,6.0,Sales,PhD,Good,True,2020-12-12 16:20:17.916666
+46.0,40193.0,5.0,IT,Bachelor,Average,False,2021-08-12 16:20:17.916666
+38.0,67829.0,15.0,Sales,Bachelor,Excellent,,2016-08-24 16:20:17.916666
+17.0,64455.0,10.0,Sales,Master,Average,False,2016-01-05 16:20:17.916666
+38.0,63757.0,3.0,HR,Master,Excellent,True,2017-12-29 16:20:17.916666
+31.0,65197.0,12.0,,PhD,Excellent,True,
+28.0,49800.0,16.0,HR,High School,Excellent,False,2020-08-02 16:20:17.916666
+41.0,63484.0,12.0,Sales,PhD,Good,True,2017-05-10 16:20:17.916666
+45.0,64396.0,2.0,Finance,,,True,
+44.0,49285.0,6.0,Sales,PhD,Average,True,2021-04-11 16:20:17.916666
+27.0,,13.0,Finance,High School,Excellent,,2024-06-24 16:20:17.916666
+32.0,67107.0,5.0,,Master,Excellent,,2020-02-15 16:20:17.916666
+38.0,42130.0,10.0,HR,High School,Good,True,2023-11-08 16:20:17.916666
+45.0,,11.0,Marketing,High School,Excellent,False,2022-11-24 16:20:17.916666
+,45380.0,4.0,IT,High School,Good,True,
+33.0,71806.0,8.0,HR,Master,Excellent,True,2022-04-04 16:20:17.916666
+24.0,77379.0,-5.0,HR,High School,Average,False,2022-05-16 16:20:17.916666
+23.0,47690.0,,Marketing,High School,Excellent,False,2019-12-19 16:20:17.916666
+43.0,74451.0,7.0,IT,,Excellent,False,
+49.0,66192.0,3.0,Sales,Bachelor,Poor,False,2025-06-18 16:20:17.916666
+34.0,72331.0,15.0,Sales,High School,Good,False,2017-12-23 16:20:17.916666
+45.0,88452.0,2.0,HR,Master,Excellent,False,2024-05-03 16:20:17.916666
+39.0,56319.0,6.0,,High School,Excellent,False,2019-10-21 16:20:17.916666
+29.0,48694.0,9.0,HR,High School,Poor,True,2015-12-17 16:20:17.916666
+39.0,46657.0,14.0,Finance,,Poor,True,2016-10-25 16:20:17.916666
+50.0,47763.0,2.0,HR,High School,,False,2020-02-18 16:20:17.916666
+35.0,58843.0,13.0,,Master,Poor,True,2021-06-01 16:20:17.916666
+51.0,65117.0,8.0,Sales,,Average,True,
+9.0,64150.0,,Sales,Master,Poor,True,2025-08-16 16:20:17.916666
+43.0,72408.0,10.0,Sales,High School,Average,False,2025-03-03 16:20:17.916666
+36.0,60195.0,9.0,,High School,Good,,2019-11-26 16:20:17.916666
+32.0,81803.0,6.0,Sales,Bachelor,Good,,2022-08-09 16:20:17.916666
+36.0,,8.0,IT,Bachelor,Good,False,2019-11-24 16:20:17.916666
+15.0,100803.0,6.0,Marketing,High School,Good,True,
+33.0,69385.0,8.0,IT,High School,Good,True,2025-07-03 16:20:17.916666
+39.0,47143.0,11.0,IT,PhD,Average,True,2021-09-19 16:20:17.916666
+50.0,43937.0,14.0,Sales,Master,Average,True,2020-02-09 16:20:17.916666
+30.0,67237.0,,Marketing,PhD,Good,False,2024-02-07 16:20:17.916666
+27.0,,17.0,Marketing,Bachelor,Poor,False,2016-05-21 16:20:17.916666
+30.0,70710.0,0.0,,Bachelor,,False,2018-02-25 16:20:17.916666
+44.0,67099.0,7.0,Finance,Bachelor,Good,True,2018-07-28 16:20:17.916666
+38.0,58908.0,10.0,,Bachelor,Poor,,2015-11-18 16:20:17.916666
+30.0,,9.0,Marketing,High School,Excellent,True,2019-01-14 16:20:17.916666
+40.0,37277.0,6.0,Finance,Bachelor,Good,False,2018-07-10 16:20:17.916666
+36.0,53302.0,7.0,HR,High School,Good,True,2021-08-02 16:20:17.916666
+45.0,72846.0,6.0,HR,High School,Average,True,2018-04-22 16:20:17.916666
+28.0,63211.0,6.0,Finance,Bachelor,Excellent,True,
+32.0,41314.0,11.0,Finance,Bachelor,Excellent,False,2016-07-09 16:20:17.916666
+31.0,,9.0,Sales,Master,Poor,False,2020-12-25 16:20:17.916666
+20.0,65780.0,,Sales,PhD,Average,False,2016-03-08 16:20:17.916666
+38.0,46742.0,12.0,HR,Bachelor,,False,2020-05-25 16:20:17.916666
+38.0,,9.0,Marketing,,Average,True,2019-05-04 16:20:17.916666
+35.0,60873.0,,HR,Master,Average,False,2023-05-29 16:20:17.916666
+33.0,42855.0,11.0,Marketing,PhD,Excellent,False,2020-05-11 16:20:17.916666
+43.0,72408.0,10.0,Sales,High School,Average,False,2025-03-03 16:20:17.916666
+27.0,,17.0,Marketing,Bachelor,Poor,False,2016-05-21 16:20:17.916666
+38.0,63757.0,3.0,HR,Master,Excellent,True,2017-12-29 16:20:17.916666
+51.0,88293.0,10.0,IT,Bachelor,,False,2019-08-13 16:20:17.916666
+17.0,64455.0,10.0,Sales,Master,Average,False,2016-01-05 16:20:17.916666

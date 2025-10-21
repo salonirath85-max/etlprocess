@@ -1,0 +1,191 @@
+2025-10-21 16:19:01,630 - INFO - ==================================================
+2025-10-21 16:19:01,643 - INFO - Starting ETL Pipeline
+2025-10-21 16:19:01,643 - INFO - ==================================================
+2025-10-21 16:19:01,643 - INFO - 
+Step 1: extract_csv
+2025-10-21 16:19:01,643 - INFO - Extracting data from CSV: data/raw/sample_data.csv
+2025-10-21 16:19:01,646 - INFO - Successfully loaded 10 rows
+2025-10-21 16:19:01,646 - INFO - 
+Step 2: get_data_profile
+2025-10-21 16:19:01,662 - INFO - Data Profile Generated:
+2025-10-21 16:19:01,662 - INFO -   Shape: (10, 5)
+2025-10-21 16:19:01,662 - INFO -   Duplicates: 0
+2025-10-21 16:19:01,662 - INFO -   Memory Usage: 0.00 MB
+2025-10-21 16:19:01,666 - INFO - 
+Step 3: handle_missing_values
+2025-10-21 16:19:01,666 - INFO - Handling missing values with strategy: mean
+2025-10-21 16:19:01,678 - INFO - Missing values handled successfully
+2025-10-21 16:19:01,681 - INFO - 
+Step 4: remove_duplicates
+2025-10-21 16:19:01,681 - INFO - Removing duplicate rows
+2025-10-21 16:19:01,684 - INFO - Removed 0 duplicate rows
+2025-10-21 16:19:01,684 - INFO - 
+Step 5: encode_categorical
+2025-10-21 16:19:01,684 - INFO - Encoding categorical variables using label encoding
+2025-10-21 16:19:01,684 - INFO -   department: Label encoded (3 classes)
+2025-10-21 16:19:01,686 - INFO -   performance: Label encoded (3 classes)
+2025-10-21 16:19:01,687 - INFO - 
+Step 6: handle_outliers
+2025-10-21 16:19:01,687 - INFO - Handling outliers using iqr method
+2025-10-21 16:19:01,689 - INFO -   age: 0 outliers handled
+2025-10-21 16:19:01,691 - INFO -   salary: 0 outliers handled
+2025-10-21 16:19:01,695 - INFO -   department: 0 outliers handled
+2025-10-21 16:19:01,696 - INFO -   experience: 0 outliers handled
+2025-10-21 16:19:01,696 - INFO -   performance: 0 outliers handled
+2025-10-21 16:19:01,696 - INFO - 
+Step 7: scale_features
+2025-10-21 16:19:01,696 - INFO - Scaling features using standard scaling
+2025-10-21 16:19:01,704 - INFO - Scaled 5 features
+2025-10-21 16:19:01,704 - INFO - 
+Step 8: load_to_csv
+2025-10-21 16:19:01,704 - INFO - Loading data to CSV: data/processed/processed_data.csv
+2025-10-21 16:19:01,706 - INFO - Data saved successfully
+2025-10-21 16:19:01,709 - INFO - 
+Step 9: save_metadata
+2025-10-21 16:19:01,709 - INFO - Metadata saved to data/processed/metadata.json
+2025-10-21 16:19:01,709 - INFO - 
+==================================================
+2025-10-21 16:19:01,709 - INFO - ETL Pipeline Completed Successfully
+2025-10-21 16:19:01,709 - INFO - ==================================================
+2025-10-21 16:19:03,000 - INFO - ==================================================
+2025-10-21 16:19:03,000 - INFO - Starting ETL Pipeline
+2025-10-21 16:19:03,000 - INFO - ==================================================
+2025-10-21 16:19:03,000 - INFO - 
+Step 1: extract_csv
+2025-10-21 16:19:03,000 - INFO - Extracting data from CSV: data/raw/sample_data.csv
+2025-10-21 16:19:03,009 - INFO - Successfully loaded 105 rows
+2025-10-21 16:19:03,009 - INFO - 
+Step 2: get_data_profile
+2025-10-21 16:19:03,015 - INFO - Data Profile Generated:
+2025-10-21 16:19:03,015 - INFO -   Shape: (105, 8)
+2025-10-21 16:19:03,015 - INFO -   Duplicates: 5
+2025-10-21 16:19:03,015 - INFO -   Memory Usage: 0.03 MB
+2025-10-21 16:19:03,015 - INFO - 
+Step 3: validate_data
+2025-10-21 16:19:03,019 - INFO - Validating data against rules
+2025-10-21 16:19:03,020 - INFO - Validation age: {'pass_rate': np.float64(90.47619047619048), 'failed_rows': np.int64(10)}
+2025-10-21 16:19:03,020 - INFO - Validation salary: {'pass_rate': np.float64(90.47619047619048), 'failed_rows': np.int64(10)}
+2025-10-21 16:19:03,020 - INFO - Validation department: {'pass_rate': np.float64(89.52380952380953), 'failed_rows': np.int64(11)}
+2025-10-21 16:19:03,020 - INFO - 
+Step 4: calculate_data_quality_score
+2025-10-21 16:19:12,846 - INFO - ==================================================
+2025-10-21 16:19:12,846 - INFO - Starting ETL Pipeline
+2025-10-21 16:19:12,846 - INFO - ==================================================
+2025-10-21 16:19:12,846 - INFO - 
+Step 1: extract_csv
+2025-10-21 16:19:12,848 - INFO - Extracting data from CSV: data/raw/sample_data.csv
+2025-10-21 16:19:12,848 - INFO - Successfully loaded 105 rows
+2025-10-21 16:19:12,848 - INFO - 
+Step 2: get_data_profile
+2025-10-21 16:19:12,848 - INFO - Data Profile Generated:
+2025-10-21 16:19:12,848 - INFO -   Shape: (105, 8)
+2025-10-21 16:19:12,848 - INFO -   Duplicates: 5
+2025-10-21 16:19:12,848 - INFO -   Memory Usage: 0.03 MB
+2025-10-21 16:19:12,848 - INFO - 
+Step 3: validate_data
+2025-10-21 16:19:12,848 - INFO - Validating data against rules
+2025-10-21 16:19:12,858 - INFO - Validation age: {'pass_rate': np.float64(90.47619047619048), 'failed_rows': np.int64(10)}
+2025-10-21 16:19:12,858 - INFO - Validation salary: {'pass_rate': np.float64(90.47619047619048), 'failed_rows': np.int64(10)}
+2025-10-21 16:19:12,858 - INFO - Validation department: {'pass_rate': np.float64(89.52380952380953), 'failed_rows': np.int64(11)}
+2025-10-21 16:19:12,858 - INFO - 
+Step 4: calculate_data_quality_score
+2025-10-21 16:19:49,046 - INFO - ==================================================
+2025-10-21 16:19:49,046 - INFO - Starting ETL Pipeline
+2025-10-21 16:19:49,046 - INFO - ==================================================
+2025-10-21 16:19:49,046 - INFO - 
+Step 1: extract_csv
+2025-10-21 16:19:49,046 - INFO - Extracting data from CSV: data/raw/sample_data.csv
+2025-10-21 16:19:49,046 - INFO - Successfully loaded 105 rows
+2025-10-21 16:19:49,046 - INFO - 
+Step 2: get_data_profile
+2025-10-21 16:19:49,046 - INFO - Data Profile Generated:
+2025-10-21 16:19:49,046 - INFO -   Shape: (105, 8)
+2025-10-21 16:19:49,046 - INFO -   Duplicates: 5
+2025-10-21 16:19:49,046 - INFO -   Memory Usage: 0.03 MB
+2025-10-21 16:19:49,046 - INFO - 
+Step 3: validate_data
+2025-10-21 16:19:49,046 - INFO - Validating data against rules
+2025-10-21 16:19:49,054 - INFO - Validation age: {'pass_rate': np.float64(90.47619047619048), 'failed_rows': np.int64(10)}
+2025-10-21 16:19:49,054 - INFO - Validation salary: {'pass_rate': np.float64(90.47619047619048), 'failed_rows': np.int64(10)}
+2025-10-21 16:19:49,054 - INFO - Validation department: {'pass_rate': np.float64(89.52380952380953), 'failed_rows': np.int64(11)}
+2025-10-21 16:19:49,054 - INFO - 
+Step 4: calculate_data_quality_score
+2025-10-21 16:20:17,925 - INFO - ==================================================
+2025-10-21 16:20:17,925 - INFO - Starting ETL Pipeline
+2025-10-21 16:20:17,925 - INFO - ==================================================
+2025-10-21 16:20:17,925 - INFO - 
+Step 1: extract_csv
+2025-10-21 16:20:17,925 - INFO - Extracting data from CSV: data/raw/sample_data.csv
+2025-10-21 16:20:17,927 - INFO - Successfully loaded 105 rows
+2025-10-21 16:20:17,927 - INFO - 
+Step 2: get_data_profile
+2025-10-21 16:20:17,931 - INFO - Data Profile Generated:
+2025-10-21 16:20:17,935 - INFO -   Shape: (105, 8)
+2025-10-21 16:20:17,935 - INFO -   Duplicates: 5
+2025-10-21 16:20:17,935 - INFO -   Memory Usage: 0.03 MB
+2025-10-21 16:20:17,935 - INFO - 
+Step 3: validate_data
+2025-10-21 16:20:17,935 - INFO - Validating data against rules
+2025-10-21 16:20:17,937 - INFO - Validation age: {'pass_rate': np.float64(90.47619047619048), 'failed_rows': np.int64(10)}
+2025-10-21 16:20:17,938 - INFO - Validation salary: {'pass_rate': np.float64(90.47619047619048), 'failed_rows': np.int64(10)}
+2025-10-21 16:20:17,938 - INFO - Validation department: {'pass_rate': np.float64(89.52380952380953), 'failed_rows': np.int64(11)}
+2025-10-21 16:20:17,938 - INFO - 
+Step 4: calculate_data_quality_score
+2025-10-21 16:20:17,938 - INFO - 
+Step 5: handle_missing_values
+2025-10-21 16:20:17,938 - INFO - Handling missing values with strategy: mean
+2025-10-21 16:20:17,938 - INFO - Missing values handled successfully
+2025-10-21 16:20:17,938 - INFO - 
+Step 6: remove_duplicates
+2025-10-21 16:20:17,944 - INFO - Removing duplicate rows
+2025-10-21 16:20:17,944 - INFO - Removed 5 duplicate rows
+2025-10-21 16:20:17,945 - INFO - 
+Step 7: extract_time_features
+2025-10-21 16:20:17,945 - INFO - Extracting time-based features
+2025-10-21 16:20:17,952 - INFO - Created time features for 1 columns
+2025-10-21 16:20:17,953 - INFO - 
+Step 8: create_features
+2025-10-21 16:20:17,953 - INFO - Creating new features
+2025-10-21 16:20:17,955 - INFO -   Created feature: experience_to_salary_ratio
+2025-10-21 16:20:17,955 - INFO -   Created feature: is_senior
+2025-10-21 16:20:17,959 - INFO -   Created feature: salary_above_avg
+2025-10-21 16:20:17,967 - INFO -   Created feature: age_group
+2025-10-21 16:20:17,969 - INFO - 
+Step 9: bin_numeric_features
+2025-10-21 16:20:17,970 - INFO - Binning numeric features using quantile strategy
+2025-10-21 16:20:17,984 - INFO - 
+Step 10: encode_categorical
+2025-10-21 16:20:17,986 - INFO - Encoding categorical variables using label encoding
+2025-10-21 16:20:17,990 - INFO -   department: Label encoded (5 classes)
+2025-10-21 16:20:17,992 - INFO -   performance: Label encoded (4 classes)
+2025-10-21 16:20:17,993 - INFO -   education: Label encoded (4 classes)
+2025-10-21 16:20:17,996 - INFO -   age_group: Label encoded (4 classes)
+2025-10-21 16:20:17,998 - INFO - 
+Step 11: handle_outliers
+2025-10-21 16:20:17,998 - INFO - Handling outliers using iqr method
+2025-10-21 16:20:18,004 - INFO -   age: 5 outliers handled
+2025-10-21 16:20:18,010 - INFO -   salary: 6 outliers handled
+2025-10-21 16:20:18,017 - INFO -   experience: 2 outliers handled
+2025-10-21 16:20:18,019 - INFO - 
+Step 12: scale_features
+2025-10-21 16:20:18,021 - INFO - Scaling features using standard scaling
+2025-10-21 16:20:18,027 - INFO - Scaled 4 features
+2025-10-21 16:20:18,027 - INFO - 
+Step 13: validate_data
+2025-10-21 16:20:18,027 - INFO - Validating data against rules
+2025-10-21 16:20:18,031 - INFO - Validation age: {'pass_rate': np.float64(0.0), 'failed_rows': np.int64(100)}
+2025-10-21 16:20:18,031 - INFO - Validation salary: {'pass_rate': np.float64(0.0), 'failed_rows': np.int64(100)}
+2025-10-21 16:20:18,034 - INFO - Validation department: {'pass_rate': np.float64(0.0), 'failed_rows': np.int64(100)}
+2025-10-21 16:20:18,034 - INFO - 
+Step 14: calculate_data_quality_score
+2025-10-21 16:20:18,034 - INFO - 
+Step 15: load_to_csv
+2025-10-21 16:20:18,036 - INFO - Loading data to CSV: data/processed/processed_data.csv
+2025-10-21 16:20:18,038 - INFO - Data saved successfully
+2025-10-21 16:20:18,038 - INFO - 
+Step 16: save_metadata
+2025-10-21 16:20:18,041 - INFO - Metadata saved to data/processed/metadata.json
+2025-10-21 16:20:18,041 - INFO - 
+==================================================
+2025-10-21 16:20:18,041 - INFO - ETL Pipeline Completed Successfully
+2025-10-21 16:20:18,042 - INFO - ==================================================
